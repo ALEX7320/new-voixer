@@ -1,0 +1,6 @@
+comtypes==1.1.10
+pypiwin32==223
+PySide2==5.15.2
+pywin32==300
+shiboken2==5.15.2
+win10toast-click==0.1.2

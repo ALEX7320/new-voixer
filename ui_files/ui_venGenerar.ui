@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>venGenerar</class>
+ <widget class="QWidget" name="venGenerar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>277</width>
+    <height>278</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Generando audio</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../views/source.qrc">
+    <normaloff>:/icones/icons/vx_ticon.png</normaloff>:/icones/icons/vx_ticon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolTip{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+	gridline-color: rgb(35, 255, 35);
+
+}
+QMenu{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+}
+QMenu:disabled{
+	color: rgba(255, 255, 255, 0.5);
+}</string>
+  </property>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>278</width>
+     <height>278</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame_2{
+
+	background-color: rgb(28, 53, 69);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>44</y>
+      <width>271</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame{
+	background-color: rgb(22, 41, 54);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="lb_tiempo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QLineEdit{
+	border: 0px;
+	background-color: white;
+	color:rgb(19, 35, 46);
+	font-size: 18px;
+border-radius:5px;
+
+
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:400
+}
+</string>
+     </property>
+     <property name="text">
+      <string>0s</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:500;
+font-size:15px</string>
+     </property>
+     <property name="text">
+      <string>Tiempo Transcurrido</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>231</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_4">
+         <property name="styleSheet">
+          <string notr="true">#frame_4{
+
+	background-color: rgb(22, 41, 54);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="labSon1_5">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>221</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>60</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:100;
+font-size:13px</string>
+          </property>
+          <property name="text">
+           <string>ESTO PUEDE DEMORAR UNOS SEGUNDOS.
+
+EL ARCHIVO MP3 DEMORA EN GENERAR EL DOBLE DEL ARCHIVO WAV.</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_5">
+         <property name="styleSheet">
+          <string notr="true">#frame_5{
+
+	background-color: rgb(22, 41, 54);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="btn_openfolder">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>231</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+
+	outline: 0px;
+	background-color: rgb(28, 53, 69);
+border:0px;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:400;
+color:white;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}</string>
+          </property>
+          <property name="text">
+           <string> ABRIR CARPETA DESTINO</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../views/source.qrc">
+            <normaloff>:/general/icons/sv_fol.png</normaloff>:/general/icons/sv_fol.png</iconset>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="btn_final">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>60</y>
+            <width>231</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+
+	outline: 0px;
+	background-color: rgb(28, 53, 69);
+border:0px;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:400;
+color:white;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}</string>
+          </property>
+          <property name="text">
+           <string> CERRA VENTANA</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../views/source.qrc">
+            <normaloff>:/general/icons/sv_close.png</normaloff>:/general/icons/sv_close.png</iconset>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>3</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_3{
+
+background-color: rgb(19, 35, 46);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btn_close">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>0</y>
+       <width>40</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>40</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../views/source.qrc">
+       <normaloff>:/title_bar/icons/titlesq.png</normaloff>:/title_bar/icons/titlesq.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>12</width>
+       <height>12</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QFrame" name="fr_move">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="labSon1_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:10px</string>
+      </property>
+      <property name="text">
+       <string>GENERANDO AUDIO</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../views/source.qrc">:/icones/icons/vx_sicon.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../views/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

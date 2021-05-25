@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>venInformacion</class>
+ <widget class="QWidget" name="venInformacion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>299</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Información</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../views/source.qrc">
+    <normaloff>:/icones/icons/vx_ticon.png</normaloff>:/icones/icons/vx_ticon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolTip{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+	gridline-color: rgb(35, 255, 35);
+
+}
+QMenu{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+}
+QMenu:disabled{
+	color: rgba(255, 255, 255, 0.5);
+}</string>
+  </property>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>248</width>
+     <height>299</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame_2{
+
+	background-color: rgb(28, 53, 69);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>44</y>
+      <width>241</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame{
+	background-color: rgb(22, 41, 54);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btn_ln">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>200</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>Linkedin</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../views/source.qrc">
+       <normaloff>:/contacto/icons/cn_lk.png</normaloff>:/contacto/icons/cn_lk.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>15</width>
+       <height>15</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_git">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>200</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>GitHub</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../views/source.qrc">
+       <normaloff>:/contacto/icons/cn_git.png</normaloff>:/contacto/icons/cn_git.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>15</width>
+       <height>15</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_yt">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>200</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>YouTube</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../views/source.qrc">
+       <normaloff>:/contacto/icons/cn_yt.png</normaloff>:/contacto/icons/cn_yt.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>15</width>
+       <height>15</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../views/source.qrc">:/contacto/icons/cn_per.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:10px</string>
+     </property>
+     <property name="text">
+      <string>Desarrollador:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../views/source.qrc">:/contacto/icons/cn_cor.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_6">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>140</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+	font-family: &quot;MADE Evolve Sans&quot;;
+font-weight: 300;
+font-size:15px</string>
+     </property>
+     <property name="text">
+      <string>Alex Chuquillanqui</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_7">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>170</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+	font-family: &quot;MADE Evolve Sans&quot;;
+font-weight: 300;
+font-size:15px</string>
+     </property>
+     <property name="text">
+      <string>alex7320k@gmail.com</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../views/source.qrc">:/icones/icons/vx_sicon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_5">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:25px</string>
+     </property>
+     <property name="text">
+      <string>VOIXER</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_8">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:11px</string>
+     </property>
+     <property name="text">
+      <string>NEW</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_9">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>60</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:10px</string>
+     </property>
+     <property name="text">
+      <string>Versión:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_10">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>70</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+	font-family: &quot;MADE Evolve Sans&quot;;
+font-weight: 300;
+font-size:15px</string>
+     </property>
+     <property name="text">
+      <string>1.0</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>221</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgba(255, 255, 255,0.2);</string>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <zorder>labSon1_8</zorder>
+    <zorder>btn_ln</zorder>
+    <zorder>btn_git</zorder>
+    <zorder>btn_yt</zorder>
+    <zorder>label_2</zorder>
+    <zorder>labSon1_4</zorder>
+    <zorder>label</zorder>
+    <zorder>labSon1_6</zorder>
+    <zorder>labSon1_7</zorder>
+    <zorder>label_3</zorder>
+    <zorder>labSon1_5</zorder>
+    <zorder>labSon1_9</zorder>
+    <zorder>labSon1_10</zorder>
+    <zorder>line_2</zorder>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>3</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_3{
+
+background-color: rgb(19, 35, 46);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btn_close">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>0</y>
+       <width>40</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>40</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../views/source.qrc">
+       <normaloff>:/title_bar/icons/titlesq.png</normaloff>:/title_bar/icons/titlesq.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>12</width>
+       <height>12</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QFrame" name="fr_move">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="labSon1_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:10px</string>
+      </property>
+      <property name="text">
+       <string>INFORMACIÓN</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../views/source.qrc">:/icones/icons/vx_sicon.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../views/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

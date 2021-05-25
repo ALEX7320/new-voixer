@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>venLicencia</class>
+ <widget class="QWidget" name="venLicencia">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>367</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Licencia</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../views/source.qrc">
+    <normaloff>:/icones/icons/vx_ticon.png</normaloff>:/icones/icons/vx_ticon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolTip{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+	gridline-color: rgb(35, 255, 35);
+
+}
+QMenu{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+}
+QMenu:disabled{
+	color: rgba(255, 255, 255, 0.5);
+}</string>
+  </property>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>367</width>
+     <height>428</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame_2{
+
+	background-color: rgb(28, 53, 69);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>44</y>
+      <width>361</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame{
+	background-color: rgb(22, 41, 54);
+}
+
+
+/*SCROLL VERTICAL*/
+
+QScrollBar:vertical{
+	background-color: rgb(19, 36, 47);
+	width: 17px; 
+	margin: 4px 0px 4x 9px;
+}
+
+QScrollBar::handle {
+	background: ;
+	background-color: rgb(53, 111, 162);
+    border-radius:2px;
+	margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::add-line:vertical {
+	height: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+	height: 0 px;
+}
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPlainTextEdit" name="hoja">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>341</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/*CAJA TEXTO*/
+QPlainTextEdit{
+	color: white;
+	font-size: 10px;
+	border: 0px;
+	padding: 10px;
+	background-color: rgb(19, 36, 47);
+	font-weight:300
+}
+</string>
+     </property>
+     <property name="plainText">
+      <string/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labSon1_4">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>10</y>
+       <width>251</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:10px</string>
+     </property>
+     <property name="text">
+      <string>Acerca de la licencia y términos de uso.</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>3</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_3{
+
+background-color: rgb(19, 35, 46);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="btn_close">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>0</y>
+       <width>40</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>40</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../views/source.qrc">
+       <normaloff>:/title_bar/icons/titlesq.png</normaloff>:/title_bar/icons/titlesq.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>12</width>
+       <height>12</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QFrame" name="fr_move">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="labSon1_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;
+font-size:10px</string>
+      </property>
+      <property name="text">
+       <string>LICENCIA</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../views/source.qrc">:/icones/icons/vx_sicon.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../views/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,45 @@
+<RCC>
+  <qresource prefix="ctrl_sound">
+    <file>../icons/sd_pause.png</file>
+    <file>../icons/sd_play.png</file>
+    <file>../icons/sd_stop.png</file>
+  </qresource>
+  <qresource prefix="lock">
+    <file>../icons/fe_clear_block.png</file>
+    <file>../icons/fe_open_block.png</file>
+  </qresource>
+  <qresource prefix="icones">
+    <file>../icons/vx_sicon.png</file>
+    <file>../icons/vx_ticon.png</file>
+  </qresource>
+  <qresource prefix="contacto">
+    <file>../icons/cn_cor.png</file>
+    <file>../icons/cn_git.png</file>
+    <file>../icons/cn_lk.png</file>
+    <file>../icons/cn_per.png</file>
+    <file>../icons/cn_yt.png</file>
+  </qresource>
+  <qresource prefix="title_bar">
+    <file>../icons/titlecua.png</file>
+    <file>../icons/titlemin.png</file>
+    <file>../icons/titlesq.png</file>
+  </qresource>
+  <qresource prefix="strl_file">
+    <file>../icons/fe_clear.png</file>
+    <file>../icons/fe_open.png</file>
+    <file>../icons/fe_save.png</file>
+  </qresource>
+  <qresource prefix="general">
+    <file>../icons/donate.png</file>
+    <file>../icons/licen.png</file>
+    <file>../icons/fle_down.png</file>
+    <file>../icons/fle_up.png</file>
+    <file>../icons/guide.png</file>
+    <file>../icons/sv_close.png</file>
+    <file>../icons/sv_fol.png</file>
+    <file>../icons/info.png</file>
+    <file>../icons/comDown.png</file>
+    <file>../icons/comUp.png</file>
+    <file>../icons/sd_generate.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,2018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>venPincipal</class>
+ <widget class="QMainWindow" name="venPincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>919</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>New Voixer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../views/source.qrc">
+    <normaloff>:/icones/icons/vx_ticon.png</normaloff>:/icones/icons/vx_ticon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolTip{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+	gridline-color: rgb(35, 255, 35);
+
+}
+QMenu{ 
+	background-color: rgb(44, 109, 150);
+color: white; 
+border: 1px solid white;
+border-radius: 2px;
+}
+QMenu:disabled{
+	color: rgba(255, 255, 255, 0.5);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">#frame{
+border:2px solid rgb(16, 30, 39);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="1">
+        <widget class="QFrame" name="frame_4">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>37</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#frame_4{
+	background-color: rgb(19, 35, 46);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <property name="leftMargin">
+           <number>2</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_15">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_12">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QPushButton" name="btn_info">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>36</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="toolTip">
+                <string>Información</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../views/source.qrc">
+                 <normaloff>:/general/icons/info.png</normaloff>:/general/icons/info.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>18</width>
+                 <height>18</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_guide">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>36</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Guía</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/general/icons/guide.png</normaloff>:/general/icons/guide.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>18</width>
+              <height>18</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_licence">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>36</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Licencia</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/general/icons/licen.png</normaloff>:/general/icons/licen.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>18</width>
+              <height>18</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_donate">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>36</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Donación</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/general/icons/donate.png</normaloff>:/general/icons/donate.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>18</width>
+              <height>18</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_10">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_9">
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>637</width>
+                 <height>12</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_11">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>2</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btn_line">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	outline: 0px;
+
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../views/source.qrc">
+                 <normaloff>:/title_bar/icons/titlemin.png</normaloff>:/title_bar/icons/titlemin.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>12</width>
+                 <height>12</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_square">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../views/source.qrc">
+                 <normaloff>:/title_bar/icons/titlecua.png</normaloff>:/title_bar/icons/titlecua.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>12</width>
+                 <height>12</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_close">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../views/source.qrc">
+                 <normaloff>:/title_bar/icons/titlesq.png</normaloff>:/title_bar/icons/titlesq.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>12</width>
+                 <height>12</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="2">
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>230</width>
+           <height>123</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>230</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#frame_3{
+
+	background-color: rgb(16, 30, 39);
+
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="1">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>8</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="1">
+           <spacer name="verticalSpacer_2">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>10</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QFrame" name="frame_12">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>18</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font-size:20px;
+color: rgb(255, 255, 255);
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;</string>
+               </property>
+               <property name="text">
+                <string>NEW</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font-size:45px;
+color: rgb(255, 255, 255);
+font-family: &quot;Fashion Fetish&quot;;
+font-weight: Bold;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+               </property>
+               <property name="text">
+                <string>VOIXER</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>12</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true">#frame_2{
+	background-color: rgb(28, 53, 69);
+}
+
+
+/*SCROLL VERTICAL*/
+
+QScrollBar:vertical{
+	background-color: rgb(19, 36, 47);
+	width: 22px; 
+	margin: 4px 5px 4x 5px;
+}
+
+QScrollBar::handle {
+	background: ;
+	background-color: rgb(53, 111, 162);
+    border-radius:5px;
+	margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::add-line:vertical {
+	height: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+	height: 0 px;
+}
+
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPlainTextEdit" name="hoja">
+            <property name="styleSheet">
+             <string notr="true">/*CAJA TEXTO*/
+QPlainTextEdit{
+	color: white;
+	font-size: 17px;
+	border: 0px;
+	padding: 10px;
+	background-color: rgb(19, 36, 47);
+	font-family: &quot;MADE Evolve Sans&quot;;
+	font-weight:Regular
+}
+</string>
+            </property>
+            <property name="plainText">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QFrame" name="frame_6">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>63</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#frame_6{
+	background-color: rgb(22, 41, 54);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="2">
+           <widget class="QPushButton" name="btn_pausa">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Pausar</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/ctrl_sound/icons/sd_pause.png</normaloff>:/ctrl_sound/icons/sd_pause.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="btn_detener">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Detener</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/ctrl_sound/icons/sd_stop.png</normaloff>:/ctrl_sound/icons/sd_stop.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="btn_iniciar">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Reproducir</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/ctrl_sound/icons/sd_play.png</normaloff>:/ctrl_sound/icons/sd_play.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="10">
+           <widget class="QPushButton" name="btn_guardar_txt">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Guardar texto</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/strl_file/icons/fe_save.png</normaloff>:/strl_file/icons/fe_save.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QPushButton" name="btn_up">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Inicio del texto</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/general/icons/fle_up.png</normaloff>:/general/icons/fle_up.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7">
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="6">
+           <widget class="QPushButton" name="btn_down">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Final del texto</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QPushButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/general/icons/fle_down.png</normaloff>:/general/icons/fle_down.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8">
+           <widget class="QToolButton" name="btn_borrar">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Eliminar texto</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QToolButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QToolButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+
+QToolButton:disabled{
+	background-color: rgb(22, 41, 54);
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/strl_file/icons/fe_clear.png</normaloff>
+              <disabledoff>:/lock/icons/fe_clear_block.png</disabledoff>:/strl_file/icons/fe_clear.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="9">
+           <widget class="QToolButton" name="btn_abrir_txt">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Cargar texto</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QToolButton{
+	background-color: rgb(28, 53, 69);
+border:0px;
+	outline: 0px;
+}
+QToolButton:pressed{
+
+background-color: rgb(38, 81, 116);
+
+}
+
+QToolButton:disabled{
+	background-color: rgb(22, 41, 54);
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/strl_file/icons/fe_open.png</normaloff>
+              <disabledoff>:/lock/icons/fe_open_block.png</disabledoff>:/strl_file/icons/fe_open.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="QFrame" name="frame_13">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>24</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#frame_13{
+	background-color: rgb(16, 30, 39);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="styleSheet">
+             <string notr="true">font-family: &quot;Fashion Fetish&quot;;
+font-weight: bold;
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>  NEW VOIXER - ©ALEX7320</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>948</width>
+              <height>6</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="lb_sms_lectura">
+            <property name="minimumSize">
+             <size>
+              <width>253</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>12</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Medium;
+font-size:13px</string>
+            </property>
+            <property name="text">
+             <string>Para habilitar el texto debe detener la lectura.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lb_grip">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>25</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QFrame" name="frame_5">
+         <property name="styleSheet">
+          <string notr="true">#frame_5{
+
+
+background-color: rgb(22, 41, 54);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="horizontalSpacing">
+           <number>12</number>
+          </property>
+          <item row="0" column="1" rowspan="2">
+           <widget class="Line" name="line_3">
+            <property name="styleSheet">
+             <string notr="true">color: rgba(255, 255, 255,0.2);</string>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4" rowspan="2">
+           <widget class="QFrame" name="frame_9">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="1" column="0">
+              <widget class="QDoubleSpinBox" name="sp_rate">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>90</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::ClickFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QDoubleSpinBox {
+	color: white;
+	background-color: rgb(28, 53, 69);
+	font-size: 20px;
+	padding-left: 20px;
+
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Regular
+ }
+
+
+QDoubleSpinBox::up-button {
+min-width: 25px; min-height: 25px; 
+	background-color: rgb(28, 53, 69);
+}
+
+QDoubleSpinBox::down-button {
+min-width: 25px; min-height: 25px; 
+	background-color: rgb(28, 53, 69);
+}
+
+QDoubleSpinBox::up-arrow{
+	image: url(:/general/icons/comDown.png);
+     width:15px;
+     height: 15px;
+}
+
+QDoubleSpinBox::down-arrow{
+	image: url(:/general/icons/comUp.png);
+     width:15px;
+     height: 15px;
+}</string>
+               </property>
+               <property name="decimals">
+                <number>1</number>
+               </property>
+               <property name="minimum">
+                <double>-1.000000000000000</double>
+               </property>
+               <property name="maximum">
+                <double>1.000000000000000</double>
+               </property>
+               <property name="singleStep">
+                <double>0.100000000000000</double>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="labSon3">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>12</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color:white;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Medium;
+font-size:13px</string>
+               </property>
+               <property name="text">
+                <string>RATE</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="3" rowspan="2">
+           <widget class="Line" name="line_2">
+            <property name="styleSheet">
+             <string notr="true">color: rgba(255, 255, 255,0.2);</string>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5" rowspan="2">
+           <widget class="Line" name="line_4">
+            <property name="styleSheet">
+             <string notr="true">color: rgba(255, 255, 255,0.2);</string>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="8">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2" rowspan="2">
+           <widget class="QFrame" name="frame_8">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="1" column="0">
+              <widget class="QDoubleSpinBox" name="sp_vol">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>90</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::ClickFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QDoubleSpinBox {
+	color: white;
+	background-color: rgb(28, 53, 69);
+	font-size: 20px;
+	padding-left: 20px;
+
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Regular
+ }
+
+
+QDoubleSpinBox::up-button {
+min-width: 25px; min-height: 25px; 
+	background-color: rgb(28, 53, 69);
+}
+
+QDoubleSpinBox::down-button {
+min-width: 25px; min-height: 25px; 
+	background-color: rgb(28, 53, 69);
+}
+
+QDoubleSpinBox::up-arrow{
+	image: url(:/general/icons/comDown.png);
+     width:15px;
+     height: 15px;
+}
+
+QDoubleSpinBox::down-arrow{
+	image: url(:/general/icons/comUp.png);
+     width:15px;
+     height: 15px;
+}</string>
+               </property>
+               <property name="decimals">
+                <number>1</number>
+               </property>
+               <property name="minimum">
+                <double>0.000000000000000</double>
+               </property>
+               <property name="maximum">
+                <double>1.000000000000000</double>
+               </property>
+               <property name="singleStep">
+                <double>0.100000000000000</double>
+               </property>
+               <property name="value">
+                <double>1.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="labSon1">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>12</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color:white;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Medium;
+font-size:13px</string>
+               </property>
+               <property name="text">
+                <string>VÓLUMEN</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="6" rowspan="2">
+           <widget class="QFrame" name="frame_14">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_11">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="1" column="0">
+              <widget class="QSpinBox" name="sp_font">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>110</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::ClickFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QSpinBox {
+	color: white;
+	background-color: rgb(28, 53, 69);
+	font-size: 20px;
+	padding-left: 20px;
+
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Regular
+ }
+
+
+QSpinBox::up-button {
+min-width: 25px; min-height: 25px; 
+	background-color: rgb(28, 53, 69);
+}
+
+QSpinBox::down-button {
+min-width: 25px; min-height: 25px; 
+	background-color: rgb(28, 53, 69);
+}
+
+QSpinBox::up-arrow{
+	image: url(:/general/icons/comDown.png);
+     width:15px;
+     height: 15px;
+}
+
+QSpinBox::down-arrow{
+	image: url(:/general/icons/comUp.png);
+     width:15px;
+     height: 15px;
+}</string>
+               </property>
+               <property name="suffix">
+                <string> px</string>
+               </property>
+               <property name="minimum">
+                <number>7</number>
+               </property>
+               <property name="maximum">
+                <number>80</number>
+               </property>
+               <property name="value">
+                <number>17</number>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="labSon1_3">
+               <property name="minimumSize">
+                <size>
+                 <width>60</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>12</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color:white;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Medium;
+font-size:13px</string>
+               </property>
+               <property name="text">
+                <string>FUENTE</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="0" rowspan="2">
+           <widget class="QFrame" name="frame_7">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_6">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QLabel" name="labSon1_2">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>12</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color:white;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Medium;
+font-size:13px</string>
+               </property>
+               <property name="text">
+                <string>TIPO DE VOZ</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QComboBox" name="cb_voz">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>180</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::ClickFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+QComboBox{
+	border: 0px;
+	background-color: rgb(28, 53, 69);
+	color:white;
+	font-size: 18px;
+	padding-left: 10px;
+
+combobox-popup: 0;
+
+
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Regular
+}
+
+QComboBox::down-arrow
+{
+	image: url(:/general/icons/comUp.png);
+     width: 22px;
+     height: 22px;
+}
+
+QComboBox::drop-down
+{
+    width: 40px;
+    border-left-width: 1px;
+ }
+
+
+QComboBox QAbstractItemView {
+	color: white;	
+	padding: 14px;
+	padding:10px;
+	background-color: rgb(19, 35, 46);
+
+	selection-background-color: rgb(38, 81, 116);
+
+
+}
+
+
+
+
+/*SCROLL VERTICAL*/
+
+QScrollBar:vertical{
+	background-color: rgb(19, 35, 46);
+	width: 19px; 
+	margin: 4px 5px 4x 5px;
+}
+
+QScrollBar::handle {
+	background: ;
+	background-color: rgb(53, 111, 162);
+    border-radius:3px;
+	margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::add-line:vertical {
+	height: 0px;
+}
+
+QScrollBar::sub-line:vertical {
+	height: 0 px;
+}
+
+</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Nuevo elemento</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="9" rowspan="2">
+           <widget class="QToolButton" name="btn_generar">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Guardar audio</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QToolButton{
+	outline: 0px;
+border-radius:2px;
+	background-color: rgb(28, 53, 69);
+padding-top:7px;
+font-family: &quot;MADE Evolve Sans&quot;;
+font-weight:Medium;
+color:white;
+
+}
+QToolButton:pressed{
+border:0px;
+
+	background-color: rgb(38, 81, 116);
+}</string>
+            </property>
+            <property name="text">
+             <string>GENERAR</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/general/icons/sd_generate.png</normaloff>:/general/icons/sd_generate.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="toolButtonStyle">
+             <enum>Qt::ToolButtonTextUnderIcon</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="7" rowspan="2">
+           <widget class="Line" name="line_5">
+            <property name="styleSheet">
+             <string notr="true">color: rgba(255, 255, 255,0.2);</string>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../views/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
