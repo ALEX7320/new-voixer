@@ -134,7 +134,7 @@ class Ui_venPrin(QMainWindow):
 
         if(self.raizPrin.hoja.toPlainText()==''):
             return
-        elif(QMessageBox.question(self, "Advertencia", "¿Desea borrar el todo texto?",
+        elif(QMessageBox.question(self, "Advertencia", "¿Desea borrar todo el texto?",
                 QMessageBox.Yes | QMessageBox.No)== QMessageBox.Yes):
             self.raizPrin.hoja.clear() 
 
@@ -142,6 +142,8 @@ class Ui_venPrin(QMainWindow):
     def closeEvent(self, event):
 
         establecer_cambios_text(self.raizPrin.hoja, 'save')
+        try:self.engine.stop()
+        except:pass
         event.accept()
 
 

@@ -17,7 +17,7 @@ def add_font_app(ruta, extension):
         import os
 
         for font in os.listdir(ruta):
-            if(font.endswith('ttf')):
+            if(font.endswith(extension)):
                 font_set = os.path.join(ruta, font)
                 QFontDatabase.addApplicationFont(font_set)
     except:
