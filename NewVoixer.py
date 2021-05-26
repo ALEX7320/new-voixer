@@ -22,8 +22,8 @@ if __name__ == "__main__":
     app.installTranslator(traductor)
 
     # definir fonts
-    add_font_app(r'font\Fashion Fetish')
-    add_font_app(r'font\MADE Evolve Sans')
+    add_font_app(r'font\Fashion Fetish', 'ttf')
+    add_font_app(r'font\MADE Evolve Sans', 'otf')
 
     mi_aplicacion = Ui_VenCarga()
     mi_aplicacion.show()

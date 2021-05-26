@@ -280,6 +280,52 @@ background-color: rgb(53, 111, 162);
            </widget>
           </item>
           <item>
+           <widget class="QPushButton" name="btn_descarga">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>36</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="toolTip">
+             <string>Versiones</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	outline: 0px;
+border:0px;
+}
+QPushButton:pressed{
+background-color: rgb(53, 111, 162);
+
+}
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../views/source.qrc">
+              <normaloff>:/general/icons/descargar.png</normaloff>:/general/icons/descargar.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>18</width>
+              <height>18</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QPushButton" name="btn_donate">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Ignored">

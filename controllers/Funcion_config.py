@@ -9,7 +9,9 @@ def suppress_qt_warnings():
     environ["QT_SCALE_FACTOR"] = "1"
 
 # AGREGAR FUENTES
-def add_font_app(ruta):
+def add_font_app(ruta, extension):
+    '''extension: ttf, otf '''
+    
     try:
         from PySide2.QtGui import QFontDatabase
         import os

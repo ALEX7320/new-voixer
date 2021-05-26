@@ -30,6 +30,7 @@
     <file>../icons/fe_save.png</file>
   </qresource>
   <qresource prefix="general">
+    <file>../icons/descargar.png</file>
     <file>../icons/donate.png</file>
     <file>../icons/licen.png</file>
     <file>../icons/fle_down.png</file>

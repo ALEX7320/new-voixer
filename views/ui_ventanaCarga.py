@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_ventanaCargaJsHBJA.ui'
+## Form generated from reading UI file 'ui_ventanaCargahywUTS.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -138,7 +138,7 @@ class Ui_VentanaCarga(object):
     def retranslateUi(self, VentanaCarga):
         VentanaCarga.setWindowTitle(QCoreApplication.translate("VentanaCarga", u"Cargando", None))
         self.label.setText("")
-        self.labTitu_2.setText(QCoreApplication.translate("VentanaCarga", u"v1.0", None))
+        self.labTitu_2.setText(QCoreApplication.translate("VentanaCarga", u"v1.1", None))
         self.labTitu.setText(QCoreApplication.translate("VentanaCarga", u"NEW VOIXER", None))
         self.labTitu_3.setText(QCoreApplication.translate("VentanaCarga", u"Cargando...", None))
     # retranslateUi

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_venPrincipalTIdOZh.ui'
+## Form generated from reading UI file 'ui_venPrincipaljbNTxA.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -147,6 +147,28 @@ class Ui_venPincipal(object):
 
         self.horizontalLayout.addWidget(self.btn_licence)
 
+        self.btn_descarga = QPushButton(self.frame_4)
+        self.btn_descarga.setObjectName(u"btn_descarga")
+        sizePolicy.setHeightForWidth(self.btn_descarga.sizePolicy().hasHeightForWidth())
+        self.btn_descarga.setSizePolicy(sizePolicy)
+        self.btn_descarga.setMinimumSize(QSize(36, 0))
+        self.btn_descarga.setFocusPolicy(Qt.NoFocus)
+        self.btn_descarga.setStyleSheet(u"QPushButton{\n"
+"	outline: 0px;\n"
+"border:0px;\n"
+"}\n"
+"QPushButton:pressed{\n"
+"background-color: rgb(53, 111, 162);\n"
+"\n"
+"}\n"
+"")
+        icon4 = QIcon()
+        icon4.addFile(u":/general/icons/descargar.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_descarga.setIcon(icon4)
+        self.btn_descarga.setIconSize(QSize(18, 18))
+
+        self.horizontalLayout.addWidget(self.btn_descarga)
+
         self.btn_donate = QPushButton(self.frame_4)
         self.btn_donate.setObjectName(u"btn_donate")
         sizePolicy.setHeightForWidth(self.btn_donate.sizePolicy().hasHeightForWidth())
@@ -162,9 +184,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon4 = QIcon()
-        icon4.addFile(u":/general/icons/donate.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_donate.setIcon(icon4)
+        icon5 = QIcon()
+        icon5.addFile(u":/general/icons/donate.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_donate.setIcon(icon5)
         self.btn_donate.setIconSize(QSize(18, 18))
 
         self.horizontalLayout.addWidget(self.btn_donate)
@@ -206,9 +228,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon5 = QIcon()
-        icon5.addFile(u":/title_bar/icons/titlemin.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_line.setIcon(icon5)
+        icon6 = QIcon()
+        icon6.addFile(u":/title_bar/icons/titlemin.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_line.setIcon(icon6)
         self.btn_line.setIconSize(QSize(12, 12))
 
         self.horizontalLayout_2.addWidget(self.btn_line)
@@ -228,9 +250,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon6 = QIcon()
-        icon6.addFile(u":/title_bar/icons/titlecua.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_square.setIcon(icon6)
+        icon7 = QIcon()
+        icon7.addFile(u":/title_bar/icons/titlecua.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_square.setIcon(icon7)
         self.btn_square.setIconSize(QSize(12, 12))
 
         self.horizontalLayout_2.addWidget(self.btn_square)
@@ -250,9 +272,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon7 = QIcon()
-        icon7.addFile(u":/title_bar/icons/titlesq.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_close.setIcon(icon7)
+        icon8 = QIcon()
+        icon8.addFile(u":/title_bar/icons/titlesq.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_close.setIcon(icon8)
         self.btn_close.setIconSize(QSize(12, 12))
 
         self.horizontalLayout_2.addWidget(self.btn_close)
@@ -405,9 +427,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon8 = QIcon()
-        icon8.addFile(u":/ctrl_sound/icons/sd_pause.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_pausa.setIcon(icon8)
+        icon9 = QIcon()
+        icon9.addFile(u":/ctrl_sound/icons/sd_pause.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_pausa.setIcon(icon9)
         self.btn_pausa.setIconSize(QSize(22, 22))
 
         self.gridLayout_5.addWidget(self.btn_pausa, 0, 2, 1, 1)
@@ -433,9 +455,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon9 = QIcon()
-        icon9.addFile(u":/ctrl_sound/icons/sd_stop.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_detener.setIcon(icon9)
+        icon10 = QIcon()
+        icon10.addFile(u":/ctrl_sound/icons/sd_stop.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_detener.setIcon(icon10)
         self.btn_detener.setIconSize(QSize(22, 22))
 
         self.gridLayout_5.addWidget(self.btn_detener, 0, 1, 1, 1)
@@ -457,9 +479,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon10 = QIcon()
-        icon10.addFile(u":/ctrl_sound/icons/sd_play.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_iniciar.setIcon(icon10)
+        icon11 = QIcon()
+        icon11.addFile(u":/ctrl_sound/icons/sd_play.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_iniciar.setIcon(icon11)
         self.btn_iniciar.setIconSize(QSize(22, 22))
 
         self.gridLayout_5.addWidget(self.btn_iniciar, 0, 3, 1, 1)
@@ -481,9 +503,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon11 = QIcon()
-        icon11.addFile(u":/strl_file/icons/fe_save.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_guardar_txt.setIcon(icon11)
+        icon12 = QIcon()
+        icon12.addFile(u":/strl_file/icons/fe_save.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_guardar_txt.setIcon(icon12)
         self.btn_guardar_txt.setIconSize(QSize(30, 30))
 
         self.gridLayout_5.addWidget(self.btn_guardar_txt, 0, 10, 1, 1)
@@ -505,9 +527,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon12 = QIcon()
-        icon12.addFile(u":/general/icons/fle_up.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_up.setIcon(icon12)
+        icon13 = QIcon()
+        icon13.addFile(u":/general/icons/fle_up.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_up.setIcon(icon13)
         self.btn_up.setIconSize(QSize(22, 22))
 
         self.gridLayout_5.addWidget(self.btn_up, 0, 5, 1, 1)
@@ -533,9 +555,9 @@ class Ui_venPincipal(object):
 "\n"
 "}\n"
 "")
-        icon13 = QIcon()
-        icon13.addFile(u":/general/icons/fle_down.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_down.setIcon(icon13)
+        icon14 = QIcon()
+        icon14.addFile(u":/general/icons/fle_down.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_down.setIcon(icon14)
         self.btn_down.setIconSize(QSize(22, 22))
 
         self.gridLayout_5.addWidget(self.btn_down, 0, 6, 1, 1)
@@ -561,10 +583,10 @@ class Ui_venPincipal(object):
 "	background-color: rgb(22, 41, 54);\n"
 "}\n"
 "")
-        icon14 = QIcon()
-        icon14.addFile(u":/strl_file/icons/fe_clear.png", QSize(), QIcon.Normal, QIcon.Off)
-        icon14.addFile(u":/lock/icons/fe_clear_block.png", QSize(), QIcon.Disabled, QIcon.Off)
-        self.btn_borrar.setIcon(icon14)
+        icon15 = QIcon()
+        icon15.addFile(u":/strl_file/icons/fe_clear.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon15.addFile(u":/lock/icons/fe_clear_block.png", QSize(), QIcon.Disabled, QIcon.Off)
+        self.btn_borrar.setIcon(icon15)
         self.btn_borrar.setIconSize(QSize(30, 30))
 
         self.gridLayout_5.addWidget(self.btn_borrar, 0, 8, 1, 1)
@@ -590,10 +612,10 @@ class Ui_venPincipal(object):
 "	background-color: rgb(22, 41, 54);\n"
 "}\n"
 "")
-        icon15 = QIcon()
-        icon15.addFile(u":/strl_file/icons/fe_open.png", QSize(), QIcon.Normal, QIcon.Off)
-        icon15.addFile(u":/lock/icons/fe_open_block.png", QSize(), QIcon.Disabled, QIcon.Off)
-        self.btn_abrir_txt.setIcon(icon15)
+        icon16 = QIcon()
+        icon16.addFile(u":/strl_file/icons/fe_open.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon16.addFile(u":/lock/icons/fe_open_block.png", QSize(), QIcon.Disabled, QIcon.Off)
+        self.btn_abrir_txt.setIcon(icon16)
         self.btn_abrir_txt.setIconSize(QSize(30, 30))
 
         self.gridLayout_5.addWidget(self.btn_abrir_txt, 0, 9, 1, 1)
@@ -1026,9 +1048,9 @@ class Ui_venPincipal(object):
 "\n"
 "	background-color: rgb(38, 81, 116);\n"
 "}")
-        icon16 = QIcon()
-        icon16.addFile(u":/general/icons/sd_generate.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_generar.setIcon(icon16)
+        icon17 = QIcon()
+        icon17.addFile(u":/general/icons/sd_generate.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_generar.setIcon(icon17)
         self.btn_generar.setIconSize(QSize(35, 35))
         self.btn_generar.setToolButtonStyle(Qt.ToolButtonTextUnderIcon)
 
@@ -1069,6 +1091,10 @@ class Ui_venPincipal(object):
         self.btn_licence.setToolTip(QCoreApplication.translate("venPincipal", u"Licencia", None))
 #endif // QT_CONFIG(tooltip)
         self.btn_licence.setText("")
+#if QT_CONFIG(tooltip)
+        self.btn_descarga.setToolTip(QCoreApplication.translate("venPincipal", u"Versiones", None))
+#endif // QT_CONFIG(tooltip)
+        self.btn_descarga.setText("")
 #if QT_CONFIG(tooltip)
         self.btn_donate.setToolTip(QCoreApplication.translate("venPincipal", u"Donaci\u00f3n", None))
 #endif // QT_CONFIG(tooltip)

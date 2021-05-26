@@ -104,6 +104,7 @@ class Ui_venPrin(QMainWindow):
 
         self.raizPrin.btn_donate.clicked.connect(lambda: webbrowser.open('https://www.paypal.com/donate?hosted_button_id=8SBG459YE5CE6', new=2))
         self.raizPrin.btn_licence.clicked.connect(lambda: abrirVenOpaci(self, self.raizOpacidad, Ui_venLicen(self)) )
+        self.raizPrin.btn_descarga.clicked.connect(lambda: webbrowser.open('https://gum.co/voixer', new=2))
 
         
     # VERIFICAR LECTURA EN PROCESO +-+-+-+-+-+-+
@@ -133,7 +134,7 @@ class Ui_venPrin(QMainWindow):
 
         if(self.raizPrin.hoja.toPlainText()==''):
             return
-        elif(QMessageBox.question(self, "Advertencia", "¿Desea borrar todo texto?",
+        elif(QMessageBox.question(self, "Advertencia", "¿Desea borrar el todo texto?",
                 QMessageBox.Yes | QMessageBox.No)== QMessageBox.Yes):
             self.raizPrin.hoja.clear() 
 

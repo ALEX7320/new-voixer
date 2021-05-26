@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_venInformacionqqVtQH.ui'
+## Form generated from reading UI file 'ui_venInformacionzaQVTx.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -290,7 +290,7 @@ class Ui_venInformacion(object):
         self.labSon1_5.setText(QCoreApplication.translate("venInformacion", u"VOIXER", None))
         self.labSon1_8.setText(QCoreApplication.translate("venInformacion", u"NEW", None))
         self.labSon1_9.setText(QCoreApplication.translate("venInformacion", u"Versi\u00f3n:", None))
-        self.labSon1_10.setText(QCoreApplication.translate("venInformacion", u"1.0", None))
+        self.labSon1_10.setText(QCoreApplication.translate("venInformacion", u"1.1", None))
         self.btn_close.setText("")
         self.labSon1_3.setText(QCoreApplication.translate("venInformacion", u"INFORMACI\u00d3N", None))
         self.label_4.setText("")
