@@ -23,7 +23,7 @@ def generar_audio_mp3(ruta_mp3, texto, voz, rate, parent):
     import os
     try:
         # ruta auxiliar para generar el .wav
-        ruta_wav = os.path.join(os.getcwd(), 'sounds\\sample.wav')
+        ruta_wav = os.path.join(os.getcwd(), r'sounds/sample.wav')
 
         # verificar la carpeta
         verificar_carpeta_sound()
@@ -45,8 +45,7 @@ def generar_audio_mp3(ruta_mp3, texto, voz, rate, parent):
 
 # CONVERTIR WAV A MP3 +-+-+-+-+-+-+
 def convertir_audio_mp3(ruta_wav, ruta_mp3):
-    import subprocess
-    import os
+    import os, subprocess
 
     # Formatos soportados
     # ("flac", "aac", "aiff", "m4a", "ogg", "opus", "raw", "wav", "wma", "webm")
@@ -58,8 +57,15 @@ def convertir_audio_mp3(ruta_wav, ruta_mp3):
     # ocultar ventana
     DETACHED_PROCESS = 0x00000008
 
+    # por defecto /*/*/*/*/*/*/*/
+    ffmpeg_root = 'ffmpeg'
+
+    # ffmpeg x64 (64 bits) / x86 (32 bits) /*/*/*/*/*/*/*/
+    # ffmpeg_root = r"ffmpeg-x64\bin\ffmpeg.exe"
+    # ffmpeg_root = r"ffmpeg-x86\bin\ffmpeg.exe"
+
     # proceso
-    subprocess.run(["ffmpeg",
+    subprocess.run([ffmpeg_root,
                     "-loglevel",
                     "quiet",
                     "-hide_banner",
