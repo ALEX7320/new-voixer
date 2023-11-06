@@ -92,7 +92,7 @@ Sistema operativo: Windows
 
 Convierte de texto a voz - APLICACIÓN DE ESCRITORIO MODERNO [PySide2]
 
-[![]([https://i9.ytimg.com/vi/mPjs5IZ1kho/maxresdefault.jpg?v=60a97556&sqp=CPzwnqoG&rs=AOn4CLAzJ3kyycvNmOoCGEMHvJ67eBVxaA](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIgJQtk5MVaAGYKPnIbzaen48xv3eeSOzkoXYihQkF-37TBgVs_uxC6cucmuMs0qZTm5_e01Zl1qhudIsMMUmWk7I6JKcQ98LNJo0rckKLhypuJjGI9lKsWzFBckf9VJctLQsjxOi_31CPgBv3f9yJZY50ogtjM2bPOMwiN3pWDKIGTEUQn_KhvIFyRk8/s1600/maxresdefault.jpg))](https://youtu.be/mPjs5IZ1kho?si=kJmDz74R5gzLaRVf)
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIgJQtk5MVaAGYKPnIbzaen48xv3eeSOzkoXYihQkF-37TBgVs_uxC6cucmuMs0qZTm5_e01Zl1qhudIsMMUmWk7I6JKcQ98LNJo0rckKLhypuJjGI9lKsWzFBckf9VJctLQsjxOi_31CPgBv3f9yJZY50ogtjM2bPOMwiN3pWDKIGTEUQn_KhvIFyRk8/s1600/maxresdefault.jpg)](https://youtu.be/mPjs5IZ1kho?si=kJmDz74R5gzLaRVf)
 
 
 # Descarga del programa
